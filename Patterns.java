@@ -1,6 +1,8 @@
+import java.util.*;
 public class Patterns {
     public static void Pattern1() {
-        int n = 5;
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt() ;
         for (int i = 1;i <= n; i++){
             for(int j = 1; j <= i - 1; j++){
                 System.out.print(" ");
@@ -13,7 +15,8 @@ public class Patterns {
     }
 
     public static void Pattern2() {
-        int n = 5;
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
         int a = 65;
         for (int i = 1;i <= n; i++){
             for(int j = 1; j <= i; j++){
@@ -25,7 +28,8 @@ public class Patterns {
     }    
 
 public static void Pattern3() {
-        int n = 5;
+     Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
         for (int i = 1;i <= n; i++){
             for(int j = 1; j <= i; j++){
                 System.out.print(j);
@@ -36,7 +40,8 @@ public static void Pattern3() {
     }
     
     public static void Pattern4() {
-        int n = 5;
+         Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
         for (int i = 1;i <= n; i++){
             for(int j = 1; j <= i; j++){
                 System.out.print(i);
@@ -47,7 +52,8 @@ public static void Pattern3() {
     
     
     public static void Pattern5() {
-        int n = 5;
+         Scanner sc = new Scanner(System.in);
+        int n =sc.nextInt();
         for (int i = 1;i <= n; i++){
             for(int j = 1; j <= i; j++){
                 if (((i + j) & 1) == 0){
@@ -62,7 +68,8 @@ public static void Pattern3() {
 
 
     public static void Pattern6() {
-        int n = 5;
+         Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
         for (int i = 1;i <= n; i++) {
             for (int j = 1; j<= n - i + 1; j++) {
                 System.out.println(j); 
@@ -73,7 +80,8 @@ public static void Pattern3() {
         
 
     public static void Pattern7() {
-        int n = 5;
+         Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
         int k = 1;
         for (int i = 1;i <= n; i++) {
             for (int j = 1; j<= i; j++) {
@@ -86,7 +94,8 @@ public static void Pattern3() {
 
 
     public static void Pattern8(){
-        int n = 6;
+         Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt(0;
         for (int i = 1;i <= n; i++) {
             for (int j = 1; j <= n; j++) {
                 System.out.print("*");
