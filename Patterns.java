@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 public class Patterns {
     public static void Pattern1() {
         Scanner sc = new Scanner(System.in);
